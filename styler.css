@@ -287,39 +287,35 @@
     
     #shpe {
         z-index: 5;
-        background-color: lightblue;
-        left: 130px;
+        background-image: url(ShpeRLDCSolo.jpg);
+        background-size: contain;
+        left: 90px;
     }
     
     #honorboard {
-        background-color: rgb(229, 212, 243);
+        background-image: url(HonorSolo.jpg);
+        background-size: contain;
         z-index: 4;
-        left: 60px;
+        left: 30px;
     }
     
     #ANY {
         z-index: 3;
         background-color: lightgoldenrodyellow;
-        right: 10px;
-    }
-    
-    #DAL {
-        background-color: rgb(177, 245, 177);
-        z-index: 2;
-        right: 70px;
+        left: -30px;
     }
     
     #LEADS {
         z-index: 1;
         background-color: lightcoral;
-        right: 140px;
+        right: 90px;
     }
     
     .involve-containers.clicked,
     .experience-containers.clicked,
     .experience-containers.clicked.waiting:hover,
     .involve-containers.clicked.waiting:hover {
-        transform: scale(1.30, 1.05);
+        transform: scale(1.10, 1.15);
         opacity: 1;
         transition: ease-in-out .3s;
         z-index: 6 !important;
@@ -327,7 +323,7 @@
     
     .experience-containers:hover,
     .involve-containers:hover {
-        transform: scale(1.30, 1.05);
+        transform: scale(1.15, 1.15);
         opacity: 1;
         transition: ease-in-out .3s;
         z-index: 6 !important;
@@ -354,18 +350,12 @@
     #shpe-div {
         width: 100%;
         background-color: lightblue;
-        height: 600px;
+        height: 610px;
     }
     
     #honor-div {
         width: 100%;
         background-color: rgb(229, 212, 243);
-        height: 400px;
-    }
-    
-    #DAL-div {
-        width: 100%;
-        background-color: rgb(177, 245, 177);
         height: 400px;
     }
     
@@ -407,7 +397,7 @@
     }
     
     .change-fourth-section-top {
-        top: 2230px;
+        top: 2240px;
     }
     
     .bottom-arrow {
@@ -498,7 +488,7 @@
     }
     
     .change-fifth-section-top {
-        top: 2790px;
+        top: 2900px;
     }
     
     #id-office-div {
@@ -526,16 +516,24 @@
     }
     
     .change-fifth-section-top-involve {
-        top: 2590px;
+        top: 2800px;
     }
     /*Content inside of SHPE div under Involvement*/
+    
+    p {
+        margin-bottom: 0px;
+        margin: 8px 20px 1px 20px;
+    }
     
     .divs-content {
         overflow-wrap: normal;
         font-family: 'Poiret One', Georgia, Times, serif;
         font-size: 1.5vw;
-        display: flex;
         text-align: justify;
+    }
+    
+    #shpe-first-para {
+        margin-top: 15px;
     }
     
     img {
@@ -544,27 +542,27 @@
         box-shadow: 4px 6px 13px 1px rgba(0, 0, 0, 0.57);
     }
     
-    #shpe-first-para {
-        margin: 15px 20px 1px 20px;
-        flex-flow: column;
-    }
-    
-    #shpe-second-para {
-        margin: 15px 20px 1px 20px;
-        float: right;
-        text-align: justify;
-    }
-    
     #shpeBeachSweeps {
-        height: 55%;
-        width: 30%;
+        max-width: 100%;
         float: right;
-        margin: 10px 20px 5px 15px;
+        margin: 10px 20px 10px 15px;
+        width: 330px;
+        height: 230px;
     }
     
     #shpeRLDCSolo {
-        height: 40%;
-        width: 15%;
+        height: 280px;
+        width: 180px;
         float: left;
-        margin: 10px 20px 5px 15px;
+        margin: 8px 20px 5px 25px;
+        clear: top;
+        max-width: 100%;
+    }
+    
+    #shpeRLDCWashington {
+        height: 235px;
+        width: 200px;
+        float: right;
+        margin: 0px 20px 5px 15px;
+        max-width: 100%;
     }
